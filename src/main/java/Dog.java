@@ -6,4 +6,9 @@ public class Dog extends Animal {
         this.makeSound();
     }
 
+    @Override
+    public boolean eat(String foodType) {
+        return false;
+    }
+
 }
