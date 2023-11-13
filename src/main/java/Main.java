@@ -7,5 +7,12 @@ public class Main {
         dog.makeSound();
         cat.eat("laks");
         dog.eat("lak");
+
+        dog.showMood(false);
+        dog.showMood(true);
+        cat.showMood(true);
+        cat.showMood(false);
+
+
     }
 }
